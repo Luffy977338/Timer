@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/timer.css">
+   <title>Timer</title>
+</head>
+
+<body>
+   <div class="wrap">
+      <div class="timer">
+         <div class="timer__value">
+            <input type="number" value="23" max="23" min="0" class="timer__hours chooseInput">
+            <span>:</span>
+            <input type="number" value="59" max="59" min="0" class="timer__minutes chooseInput">
+            <span>:</span>
+            <input type="number" value="59" max="59" min="0" class="timer__seconds chooseInput">
+         </div>
+         <div class="timer__start timer__stop">
+            <button class="timer__start_button">Start</button>
+            <button class="timer__stop_button">Stop</button>
+         </div>
+         <div class="timer__value_start">
+            <p class="timer__paragraph">Choose time</p>
+         </div>
+      </div>
+   </div>
+
+   <script src="scripts/timer.js"></script>
+</body>
+
+</html>

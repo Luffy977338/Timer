@@ -1,0 +1,50 @@
+.timer {
+    margin-top: 50px;
+    width: 268px;
+}
+.timer__value_start {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+}
+.timer__start, .timer__stop {
+    margin-top: 15px;
+    text-align: center;
+}
+.timer__start_button, .timer__stop_button {
+    width: 70px;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.timer__value {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.timer__value span {
+    font-size: 42px;
+}
+.timer .chooseInput {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.timer .chooseInput:focus {
+    outline: none;
+}
+.timer .chooseInput:hover {
+    border: 1px solid black;
+}
+
+.wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}

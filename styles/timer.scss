@@ -1,0 +1,44 @@
+.timer{
+   margin-top: 50px;
+   width: 268px;
+   &__value_start{
+      text-align: center;
+      margin-top: 25px;
+      font-size: 24px;
+   }
+   &__start, &__stop{
+      margin-top: 15px;
+      text-align: center;
+      &_button{
+         width: 70px;
+         background: transparent;
+         border: 1px solid black;
+         cursor: pointer;
+      }
+   }
+
+   &__value{
+      display: flex;
+      justify-content: space-around;
+      span{
+         font-size: 42px;
+      }
+   }
+   .chooseInput{
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+      text-align: center;
+      &:focus{
+         outline: none;
+      }
+      &:hover{
+         border: 1px solid black;
+      }
+   }
+}
+
+.wrap{
+   display: flex;
+   justify-content: center;
+}
