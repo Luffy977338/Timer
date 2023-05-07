@@ -1,6 +1,9 @@
 .timer{
    margin-top: 50px;
    width: 268px;
+   .invalidShake{
+      animation: shakeAnimate .2s;
+   }
    &__value_start{
       text-align: center;
       margin-top: 25px;
@@ -16,7 +19,6 @@
          cursor: pointer;
       }
    }
-
    &__value{
       display: flex;
       justify-content: space-around;
@@ -29,6 +31,7 @@
       height: 50px;
       font-size: 24px;
       text-align: center;
+      border: 1px solid black;
       &:focus{
          outline: none;
       }
@@ -41,4 +44,20 @@
 .wrap{
    display: flex;
    justify-content: center;
+}
+
+
+@keyframes shakeAnimate {
+   0% {
+
+   }
+   25%{
+      transform: translateX(10px);
+   }
+   75%{
+      transform: translateX(-10px);
+   }
+   100%{
+
+   }
 }
